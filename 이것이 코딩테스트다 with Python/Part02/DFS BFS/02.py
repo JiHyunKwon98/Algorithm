@@ -23,7 +23,7 @@ def bfs(x, y):
             if nx < 0 or ny < 0 or nx >= n or ny >= m:
                 continue
             if arr[nx][ny] == 1:
-                arr[nx][ny] = arr[nx][ny] + 1
+                arr[nx][ny] = arr[x][y] + 1
                 queue.append((nx, ny))
     return arr[n - 1][m - 1]
 
