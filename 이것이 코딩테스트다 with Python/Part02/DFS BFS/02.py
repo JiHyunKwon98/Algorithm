@@ -9,7 +9,6 @@ arr = []
 for i in range(n):
     arr.append(list(map(int, input())))
 
-# 북, 동, 남, 서 방향 정의
 dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
 
